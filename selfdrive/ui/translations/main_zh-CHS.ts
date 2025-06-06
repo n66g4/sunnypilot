@@ -1493,7 +1493,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>sunnypilot will &lt;b&gt;not&lt;/b&gt; take over control of gas and brakes. Stock Toyota longitudinal control will be used.</source>
-        <translation>sunnypilot将<b>不会</b>接管油门和刹车的控制。将使用原厂丰田纵向控制。</translation>
+        <translation>sunnypilot将&lt;b&gt;不会&lt;/b&gt;接管油门和刹车的控制。将使用原厂丰田纵向控制。</translation>
     </message>
     <message>
         <source>Allow M.A.D.S. toggling w/ LKAS Button (Beta)</source>
@@ -1948,7 +1948,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>This platform defaults to &lt;b&gt;Auto&lt;/b&gt; mode. &lt;b&gt;User Confirm&lt;/b&gt; mode is not supported on this platform.</source>
-        <translation>此平台默认为<b>自动</b>模式。此平台不支持<b>用户确认</b>模式。</translation>
+        <translation>此平台默认为&lt;b&gt;自动&lt;/b&gt;模式。此平台不支持&lt;b&gt;用户确认&lt;/b&gt;模式。</translation>
     </message>
     <message>
         <source>Select the desired mode to set the cruising speed to the speed limit:</source>
@@ -2705,7 +2705,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>Formerly known as &lt;b&gt;&quot;NNFF&quot;&lt;/b&gt;, this replaces the lateral &lt;b&gt;&quot;torque&quot;&lt;/b&gt; controller, with one using a neural network trained on each car&apos;s (actually, each separate EPS firmware) driving data for increased controls accuracy.</source>
-        <translation>以前称为<b>"NNFF"</b>，这用一个在每辆车的驾驶数据（实际上是每个独立的EPS固件）上训练的神经网络来替换横向<b>"扭矩"</b>控制器，以提高控制精度。</translation>
+        <translation>以前称为&lt;b&gt;"NNFF"&lt;/b&gt;，这用一个在每辆车的驾驶数据（实际上是每个独立的EPS固件）上训练的神经网络来替换横向&lt;b&gt;"扭矩"&lt;/b&gt;控制器，以提高控制精度。</translation>
     </message>
     <message>
         <source>Reach out to the sunnypilot team in the following channel at the sunnypilot Discord server with feedback, or to provide log data for your car if your car is currently unsupported: </source>
@@ -3113,7 +3113,7 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Adjust Friction for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation>调整扭矩横向控制器的摩擦力。<b>实时</b>：覆盖自调值；<b>离线</b>：在车辆重启时覆盖自调离线值。</translation>
+        <translation>调整扭矩横向控制器的摩擦力。&lt;b&gt;实时&lt;/b&gt;：覆盖自调值；&lt;b&gt;离线&lt;/b&gt;：在车辆重启时覆盖自调离线值。</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
@@ -3132,7 +3132,7 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Adjust Max Lateral Acceleration for the Torque Lateral Controller. &lt;b&gt;Live&lt;/b&gt;: Override self-tune values; &lt;b&gt;Offline&lt;/b&gt;: Override self-tune offline values at car restart.</source>
-        <translation>调整扭矩横向控制器的最大横向加速度。<b>实时</b>：覆盖自调值；<b>离线</b>：在车辆重启时覆盖自调离线值。</translation>
+        <translation>调整扭矩横向控制器的最大横向加速度。&lt;b&gt;实时&lt;/b&gt;：覆盖自调值；&lt;b&gt;离线&lt;/b&gt;：在车辆重启时覆盖自调离线值。</translation>
     </message>
     <message>
         <source>Real-time and Offline</source>
