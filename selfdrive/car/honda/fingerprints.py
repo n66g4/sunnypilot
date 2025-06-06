@@ -520,6 +520,24 @@ FW_VERSIONS = {
       b'77959-T5R-A230\x00\x00',
     ],
   },
+  CAR.HONDA_NEW_FIT_CHN: {
+    (Ecu.fwdCamera, 0x18dab0f1, None): [
+      b'37805-64A-T020\x00\x00',
+      b'37805-64A-T030\x00\x00',
+    ],
+    (Ecu.gateway, 0x18daeff1, None): [
+      b'38897-T5A-J010\x00\x00',
+    ],
+    (Ecu.eps, 0x18da30f1, None): [
+      b'39990-T5A-J030\x00\x00',
+    ],
+    (Ecu.srs, 0x18da53f1, None): [
+      b'77959-T5A-J010\x00\x00',
+    ],
+    (Ecu.vsa, 0x18da28f1, None): [
+      b'57114-T5A-J010\x00\x00',
+    ],
+  },
   CAR.HONDA_FREED: {
     (Ecu.gateway, 0x18daeff1, None): [
       b'38897-TDK-J010\x00\x00',
