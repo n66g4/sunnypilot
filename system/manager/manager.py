@@ -125,6 +125,7 @@ def manager_init() -> None:
     ("LastSunnylinkPingTime", "0"),
     ("EnableGitlabRunner", "0"),
     ("EnableSunnylinkUploader", "0"),
+    ("FpDeviceDmUnavailable", "0"),
   ]
   if not PC:
     default_params.append(("LastUpdateTime", datetime.datetime.now(datetime.UTC).replace(tzinfo=None).isoformat().encode('utf8')))
@@ -157,7 +158,7 @@ def manager_init() -> None:
   params.put("GitCommit", build_metadata.openpilot.git_commit)
   params.put("GitCommitDate", build_metadata.openpilot.git_commit_date)
   params.put("GitBranch", build_metadata.channel)
-  params.put("GitRemote", build_metadata.openpilot.git_origin)
+  params.put("GitRemote", build_metadata.openpilot.git_normalized_origin)
   params.put_bool("IsTestedBranch", build_metadata.tested_channel)
   params.put_bool("IsReleaseBranch", build_metadata.release_channel)
   params.put_bool("IsReleaseSPBranch", build_metadata.release_sp_channel)
@@ -232,6 +233,12 @@ def manager_thread() -> None:
   ignore += [x for x in os.getenv("BLOCK", "").split(",") if len(x) > 0]
   if params.get("DriverCameraHardwareMissing") and not is_registered_device():
     ignore += ["dmonitoringd", "dmonitoringmodeld"]
+
+  fp_device_dm_unavailable = params.get_bool("FpDeviceDmUnavailable")
+  if fp_device_dm_unavailable:
+    ignore += ["dmonitoringd", "dmonitoringmodeld"]
+  else:
+    ignore += ["dpdmonitoringd"]
 
   sm = messaging.SubMaster(['deviceState', 'carParams'], poll='deviceState')
   pm = messaging.PubMaster(['managerState'])

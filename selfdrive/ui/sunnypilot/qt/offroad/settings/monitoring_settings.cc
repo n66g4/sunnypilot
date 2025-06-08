@@ -39,6 +39,12 @@ MonitoringPanel::MonitoringPanel(QWidget *parent) : QFrame(parent) {
       tr("Enable Hands on Wheel Monitoring"),
       tr("Monitor and alert when driver is not keeping the hands on the steering wheel."),
       "../assets/offroad/icon_blank.png",
+    },
+    {
+      "FpDeviceDmUnavailable",
+      tr("Disable DM"),
+      tr("Disable driver monitor for ....I don't know why you do it,it's really dangerous."),
+      "../assets/offroad/icon_blank.png",
     }
   };
 
