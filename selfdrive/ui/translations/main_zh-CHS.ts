@@ -581,7 +581,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Toggle Onroad/Offroad</source>
-        <translation>切换路上/路下模式</translation>
+        <translation>切换行驶/停车模式</translation>
     </message>
     <message>
         <source>OFF</source>
@@ -589,7 +589,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Are you sure you want to unforce offroad?</source>
-        <translation>您确定要取消强制路下模式吗？</translation>
+        <translation>您确定要取消强制停车模式吗？</translation>
     </message>
     <message>
         <source>Unforce</source>
@@ -597,7 +597,7 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Are you sure you want to force offroad?</source>
-        <translation>您确定要强制路下模式吗？</translation>
+        <translation>您确定要强制进入停车模式吗？</translation>
     </message>
     <message>
         <source>Force</source>
@@ -609,11 +609,11 @@ Please use caution when using this feature. Only use the blinker when traffic an
     </message>
     <message>
         <source>Unforce Offroad</source>
-        <translation>取消强制路下</translation>
+        <translation>取消强制停车</translation>
     </message>
     <message>
         <source>Force Offroad</source>
-        <translation>强制路下</translation>
+        <translation>强制停车模式</translation>
     </message>
     <message>
         <source>Fleet Manager PIN:</source>
@@ -876,6 +876,14 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
     <message>
         <source>Monitor and alert when driver is not keeping the hands on the steering wheel.</source>
         <translation>当驾驶员未将手放在方向盘上时监控并发出警报。</translation>
+    </message>
+    <message>
+        <source>Disable Driver Monitoring</source>
+        <translation>禁用驾驶员监控</translation>
+    </message>
+    <message>
+        <source>Completely disable the driver monitoring system. When enabled, this feature will simulate that the driver is always in a normal state without any monitoring alerts.</source>
+        <translation>完全禁用驾驶员监控系统。启用此功能将模拟驾驶员始终处于正常状态，不会进行任何监控警告。</translation>
     </message>
 </context>
 <context>
@@ -1464,7 +1472,7 @@ This may take up to a minute.</source>
         <translation>HKG：新纵向API的自定义调校</translation>
     </message>
     <message>
-        <source>HKG CAN: Enable Cruise Main By Default</source>
+        <source>HKG CAN: Enable Cruise Main by Default</source>
         <translation>HKG CAN：默认启用巡航主控</translation>
     </message>
     <message>
@@ -1560,6 +1568,15 @@ Reboot Required.</source>
         <source>sunnypilot will attempt to unlock the doors when shift to gear P.
 Reboot Required.</source>
         <translation>当换到P档时，sunnypilot将尝试解锁车门。需要重启。</translation>
+    </message>
+    <message>
+        <source>Enable Toyota Drive Mode Button</source>
+        <translation>启用丰田驾驶模式按钮</translation>
+    </message>
+    <message>
+        <source>Sunnypilot will link the Acceleration Personality to the car's physical drive mode selector.
+Reboot Required.</source>
+        <translation>Sunnypilot将加速个性链接到车辆的物理驾驶模式选择器。需要重启。</translation>
     </message>
     <message>
         <source>Volkswagen</source>
@@ -2516,6 +2533,14 @@ Reboot Required.</source>
         <translation>启用：短按=5（英制）/ 10（公制），长按=1</translation>
     </message>
     <message>
+        <source>Overtaking Acceleration Assist</source>
+        <translation>超车加速辅助</translation>
+    </message>
+    <message>
+        <source>Overtaking Acceleration Assist will operate when the turn signal indicator is turned on to the left (left-hand drive) or turned on to the right (right-hand drive) while openpilot Longitudinal Control is operating.</source>
+        <translation>当openpilot纵向控制运行时，超车加速辅助将在转向灯打到左侧（左手驾驶）或打到右侧（右手驾驶）时启动。</translation>
+    </message>
+    <message>
         <source>Custom Offsets</source>
         <translation>自定义偏移</translation>
     </message>
@@ -2990,11 +3015,11 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Disable Onroad Uploads</source>
-        <translation>禁用路上上传</translation>
+        <translation>禁用行驶时上传</translation>
     </message>
     <message>
         <source>Disable uploads completely when onroad. Necessary to avoid high data usage when connected to Wi-Fi hotspot. Turn on this feature if you are looking to utilize map-based features, such as Speed Limit Control (SLC) and Map-based Turn Speed Control (MTSC).</source>
-        <translation>在路上时完全禁用上传。连接到Wi-Fi热点时避免高数据使用量是必要的。如果您想利用基于地图的功能，如速度限制控制（SLC）和基于地图的转弯速度控制（MTSC），请启用此功能。</translation>
+        <translation>在行驶时完全禁用上传。连接到Wi-Fi热点时避免高数据使用量是必要的。如果您想利用基于地图的功能，如速度限制控制（SLC）和基于地图的转弯速度控制（MTSC），请启用此功能。</translation>
     </message>
     <message>
         <source>Use Metric System</source>
@@ -3066,7 +3091,7 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Normal is recommended. In sport mode, sunnypilot will provide aggressive acceleration for a dynamic driving experience. In eco mode, sunnypilot will apply smoother and more relaxed acceleration. On supported cars, you can cycle through these acceleration personality within Onroad Settings on the driving screen.</source>
-        <translation>推荐使用正常模式。在运动模式下，sunnypilot将提供激进的加速以获得动态驾驶体验。在经济模式下，sunnypilot将应用更平滑和放松的加速。在支持的车辆上，您可以在驾驶屏幕的路上设置中循环切换这些加速个性。</translation>
+        <translation>推荐使用正常模式。在运动模式下，sunnypilot将提供激进的加速以获得动态驾驶体验。在经济模式下，sunnypilot将应用更平滑和放松的加速。在支持的车辆上，您可以在驾驶屏幕的行驶设置中循环切换这些加速个性。</translation>
     </message>
     <message>
         <source>openpilot defaults to driving in &lt;b&gt;chill mode&lt;/b&gt;. Experimental mode enables &lt;b&gt;alpha-level features&lt;/b&gt; that aren&apos;t ready for chill mode. Experimental features are listed below:</source>
