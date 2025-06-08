@@ -105,6 +105,7 @@ procs = [
   NativeProcess("updated", "system/updated", ["./updated.py"], only_offroad, enabled=not PC),
   PythonProcess("uploader", "system.loggerd.uploader", always_run),
   PythonProcess("statsd", "system.statsd", always_run),
+  PythonProcess("dpdmonitoringd", "selfdrive.fp.dpdmonitoringd", only_onroad, enabled=not PC),
 
   # PFEIFER - MAPD {{
   NativeProcess("mapd", COMMON_DIR, [MAPD_PATH], always_run, enabled=not PC),
