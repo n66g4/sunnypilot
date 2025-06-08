@@ -878,11 +878,11 @@ Pause Steering: ALC will be paused after the brake pedal is manually pressed.</s
         <translation>当驾驶员未将手放在方向盘上时监控并发出警报。</translation>
     </message>
     <message>
-        <source>Disable Driver Monitoring</source>
+        <source>Disable DM</source>
         <translation>禁用驾驶员监控</translation>
     </message>
     <message>
-        <source>Completely disable the driver monitoring system. When enabled, this feature will simulate that the driver is always in a normal state without any monitoring alerts.</source>
+        <source>Disable driver monitor for ....I don't know why you do it,it's really dangerous.</source>
         <translation>完全禁用驾驶员监控系统。启用此功能将模拟驾驶员始终处于正常状态，不会进行任何监控警告。</translation>
     </message>
 </context>
@@ -1238,7 +1238,7 @@ Warning: You are on a metered connection!</source>
     </message>
     <message>
         <source>Click &quot;add new device&quot; and scan the QR code on the right</source>
-        <translation>点击“添加新设备”，扫描右侧二维码</translation>
+        <translation>点击"添加新设备"，扫描右侧二维码</translation>
     </message>
     <message>
         <source>Bookmark connect.comma.ai to your home screen to use it like an app</source>
@@ -1458,7 +1458,7 @@ This may take up to a minute.</source>
     </message>
     <message>
         <source>System reset triggered. Press confirm to erase all content and settings. Press cancel to resume boot.</source>
-        <translation>系统重置已触发。按下“确认”以清除所有内容和设置，按下“取消”以继续启动。</translation>
+        <translation>系统重置已触发。按下"确认"以清除所有内容和设置，按下"取消"以继续启动。</translation>
     </message>
 </context>
 <context>
@@ -1716,7 +1716,7 @@ Reboot Required.</source>
         <translation>开始设置</translation>
     </message>
     <message>
-        <source>Before we get on the road, let’s finish installation and cover some details.</source>
+        <source>Before we get on the road, let's finish installation and cover some details.</source>
         <translation>开始旅程之前，让我们完成安装并介绍一些细节。</translation>
     </message>
     <message>
@@ -1752,7 +1752,7 @@ Reboot Required.</source>
         <translation>下载失败</translation>
     </message>
     <message>
-        <source>Ensure the entered URL is valid, and the device’s internet connection is good.</source>
+        <source>Ensure the entered URL is valid, and the device's internet connection is good.</source>
         <translation>请确保互联网连接良好且输入的URL有效。</translation>
     </message>
     <message>
@@ -2310,7 +2310,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>Username &apos;%1&apos; has no keys on GitHub</source>
-        <translation>用户名“%1”在GitHub上没有密钥</translation>
+        <translation>用户名"%1"在GitHub上没有密钥</translation>
     </message>
     <message>
         <source>Request timed out</source>
@@ -2318,7 +2318,7 @@ Reboot Required.</source>
     </message>
     <message>
         <source>Username &apos;%1&apos; doesn&apos;t exist on GitHub</source>
-        <translation>GitHub上不存在用户名“%1”</translation>
+        <translation>GitHub上不存在用户名"%1"</translation>
     </message>
 </context>
 <context>
