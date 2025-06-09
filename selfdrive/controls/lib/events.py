@@ -225,11 +225,7 @@ def user_soft_disable_alert(alert_text_2: str) -> AlertCallbackType:
   return func
 
 def startup_master_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int) -> Alert:
-  branch = get_short_branch()  # Ensure get_short_branch is cached to avoid lags on startup
-  if "REPLAY" in os.environ:
-    branch = "replay"
-
-  return StartupAlert("警告：请随时准备接管控制", branch, alert_status=AlertStatus.userPrompt)
+  return StartupAlert("警告：请随时准备接管控制", "", alert_status=AlertStatus.userPrompt)
 
 def below_engage_speed_alert(CP: car.CarParams, CS: car.CarState, sm: messaging.SubMaster, metric: bool, soft_disable_time: int) -> Alert:
   return NoEntryAlert(f"请将车速提升至 {get_display_speed(CP.minEnableSpeed, metric)} 以上以启用")
